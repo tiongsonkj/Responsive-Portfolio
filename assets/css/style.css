@@ -326,7 +326,12 @@ MEDIA QUERIES FOR ASSIGNMENT ONE INSTRUCTION OF 2ND HOMEWORK
 
 */
 
-/*width at 980px and below*/
+/*width at 980px and below
+
+
+NEED TO ALSO FIX PORTFOLIO FOR <980PX!
+
+*/
 @media screen and (max-width: 980px) {
 	body {
 		width: 100%;
@@ -342,27 +347,203 @@ MEDIA QUERIES FOR ASSIGNMENT ONE INSTRUCTION OF 2ND HOMEWORK
 	}
 
 	.me {
-		clear: both;
-		width: 200px;
+		width: 230px;
+		margin-top: 15px;
+		margin-left: 25px;
+	}
+
+	#familypic {
+		margin-bottom: 20px;
+		margin-left: 25px;
+	}
+	.connect {
+		float: left;
+		margin-left: 20px;
+		width: 220px;
+		padding-left: 15px;
+		padding-right: 0;
+	}
+
+/*
+
+
+PORTFOLIO AT 980PX!!!
+
+
+*/
+
+	.portfolio {
+		width: 220px;
+	}
+
+	.BasketballGame {
+		margin-left: 40px;
+	}
+
+	.Northwestern {
+		margin-left: 40px;
+	}
+}
+
+
+/*
+
+width at 768px and below
+
+*/
+@media screen and (max-width: 768px) {
+
+	header {
+		width: 100%;
+	}
+	section {
+		width:80%; 
+		height: 300px;
+	}
+	
+	.name {
+		width: auto;
+		padding-right: 20px;
+		font-size: x-large;
+		padding-bottom: 33px;
+	}
+	
+	nav {
+		float: right;
+	}
+	
+	#familypic {
+		float: left;
+	}
+
+	.me {
+		width: 90%;
 	}
 
 	.connect {
 		float: left;
+		width: 78%;
+		margin-left: 100px;
+		text-align: left;
+		text-indent: 18px;
+		height: 130px;
+	}
+
+	.connecthr {
+		width: 95%;
+	}
+
+	.BatmanGame {
 		margin-left: 20px;
-		width: 25%;
-		padding-left: 15px;
-		padding-right: 0;
-}
+	}
 
-/*width at 768px and below*/
-@media screen and (max-width: 768px) {
-	body {
+	.BasketballGame {
+		float: right;
+		margin-right: 20px;
+	}
 
+	.Dinosaurs {
+		margin-left: 20px;
+	}
+
+	.Northwestern {
+		float: right;
+		margin-right: 20px;
 	}
 }
 
-@media screen and (max-width: 640px) {
-	body {
+/*
 
+
+
+
+width at 640px and below
+
+
+
+
+
+*/
+@media screen and (max-width: 640px) {
+	
+	.name {
+		float: left;
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+		height: 5px;
+		padding-bottom: 20px;
+		padding-top: 10px;
+		font-size: small;
+	}
+
+	nav {
+		float: left;
+		text-align: center;
+		height: auto;
+		width: 100%;
+		font-size: small;
+		margin-top: 15px;
+		word-spacing: 50px;
+	}
+
+	section {
+		margin-left: 25px;
+		margin-right: 20px;
+	}
+
+
+	#familypic {
+		width: 90%;
+	}
+
+	.name {
+		float: left;
+	}
+
+	.connect {
+		margin-left: 25px;
+		margin-right: 20px;
+	}
+
+/*
+
+PORTFOLIO ADJUSTMENTS
+
+
+
+*/
+
+	.Portfolio {
+
+	}
+	.BatmanGame {
+		display: block;
+		width: 90%;
+		height: 200px;
+		margin-bottom: 10px;
+	}
+
+	.BasketballGame {
+		width: 90%;
+		display: block;
+		height: 200px;
+		margin-bottom: 10px;
+	}
+
+	.Dinosaurs {
+		width: 90%;
+		display: block;
+		height: 200px;
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+
+	.Northwestern {
+		width: 90%;
+		display: block;
+		height: 200px;
+		margin-bottom: 10px;
+		margin-top: 20px;
 	}
 }
