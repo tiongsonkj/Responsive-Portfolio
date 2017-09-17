@@ -283,7 +283,14 @@ div #stackof {
 
 /*
 
+
+
+
 	CONTACT.HTML STYLING
+
+
+
+
 
 */
 .contact {
@@ -305,14 +312,23 @@ div #stackof {
 }
 
 #input {
-	width: 100%;
+	width: 95%;
 	padding: 5px;
 	color: grey;
 	margin-top: 5px;
+	height: 20px;
+}
+
+#email {
+	width: 95%;
+	height: 20px;
+	padding: 5px;
 }
 
 #message {
 	resize: none;
+	width: 95%;
+	height: 180px;
 }
 
 /*
@@ -383,6 +399,30 @@ PORTFOLIO AT 980PX!!!
 	.Northwestern {
 		margin-left: 40px;
 	}
+
+/*
+
+
+CONTACT FORM at 980PX!!!
+
+
+*/
+
+	/*.contact {
+		width: 100%;
+	}*/
+
+	#input {
+		width: 90%;
+	}
+
+	#email {
+		width: 90%;
+	}
+
+	#message {
+		width: 90%;
+	}
 }
 
 
@@ -433,6 +473,11 @@ width at 768px and below
 		width: 95%;
 	}
 
+/*
+
+	PORTFOLIO ADJUSTMENTS AT 768PX!
+
+*/
 	.BatmanGame {
 		margin-left: 20px;
 	}
@@ -466,6 +511,14 @@ width at 640px and below
 */
 @media screen and (max-width: 640px) {
 	
+/*	header {
+		position: static;
+	}
+
+	DO I HAVE TO USE THIS POSITION?!?!
+
+	*/
+
 	.name {
 		float: left;
 		width: 100%;
@@ -514,9 +567,6 @@ PORTFOLIO ADJUSTMENTS
 
 */
 
-	.Portfolio {
-
-	}
 	.BatmanGame {
 		display: block;
 		width: 90%;

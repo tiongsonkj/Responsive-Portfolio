@@ -5,14 +5,16 @@
 
 	<!--Linking CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-	<header>
-		<h1>Kelvin Tiongson</h1>
+	<header class="header">
+		<h1 class="name">Kelvin Tiongson</h1>
 
 				<!-- button links upper right corner -->
-		<nav>
+		<nav class="buttons">
 			<a class="tablink" href="index.html" id="defaultOpen" style="cursor:pointer">About</a> |
 
 			<a class="tablink" href="portfolio.html" id="defaultOpen" style="cursor:pointer">Portfolio</a> |
@@ -28,13 +30,13 @@
 		<hr class="aboutmehr" width="95%" noshade>
 
 		<form class="contact" action="">
-			Name<br><input id="input" type="text" name="Name" placeholder="John Smith" style="height:20px; width:500px">
+			Name<br><input id="input" type="text" name="Name" placeholder="John Smith">
 			<br><br>
 
-			Email<br><input type="text" name="Email" placeholder="example@gmail.com" style="height:20px; width:500px">
+			Email<br><input id="email" type="text" name="Email" placeholder="example@gmail.com">
 			<br><br>
 
-			Message<br><textarea id="message" type="text" name="Message" placeholder="" style="height:180px; width:500px"></textarea> 
+			Message<br><textarea id="message" type="text" name="Message" placeholder="""></textarea> 
 			<br><br>
 
 			<input id="submit" type="submit" value="Submit">
